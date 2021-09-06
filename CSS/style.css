@@ -1,0 +1,115 @@
+*{margin: 0;}
+body{
+  display: block;
+  background-color: rgb(238, 238, 238);
+  background-image: url("seamless2.jpg");
+
+}
+html,body{height: 100%;}
+p{
+  margin:0.5em 0 0.5em 0;
+  font-size: 1.5em;
+
+}
+
+.banner{
+  max-width: 100%;
+  max-height: 46%;
+}
+
+header{
+  display:block;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:#71EFA3;
+  padding:10px;
+}
+nav a:visited,
+nav a:link{
+  color:#444444;
+  text-decoration: none;
+}
+nav>ul{
+display: inline;
+padding: 0
+}
+Nav>ul>li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 0.5em 0 0.5em;
+}
+main{
+  display:block;
+  padding-top: 3em;
+  padding-bottom:3em;
+  padding-right: 3em;
+  padding-left: 3em;
+
+}
+
+footer{
+  padding:15px;}
+
+
+aside,article{
+  padding:2em;
+}
+
+aside{text-align: center;}
+article{
+  padding: 1em 2em 2em 2em;
+  background-color:rgb(249, 132, 4, 0.9);
+  text-align: center;
+}
+
+article p{
+  text-align: center;
+}
+@media only screen and (min-width:768px) {
+  main{display:flex;}
+  aside{margin-left: 2%}
+  .Columns-desktop{display: flex;}
+}
+.introduction{
+  font-size: 3em;
+  margin-top: .2em;
+
+}
+/* Below this line are sales*/
+
+.sales{
+  max-width:5em;
+  max-height: 5em;
+}
+.columns
+{display: flex;}
+
+.preinventory{
+  padding: 1em 2em 2em 2em;
+  background-color:rgb(172, 255, 173, 0.6);
+  text-align: center;
+  ;
+}
+.inventory{
+  width: 200px;
+  padding: 10px;
+  margin:10px;
+  background-color: #66DE93;
+  border: solid 5px #ccc;
+}
+.inventory .title{font-weight: bold;}
+.inventory .columns{width:100%;}
+.inventory .Price{text-align: right;}
+.inventory .columns div{ width: 50%;}
+
+
+
+.groceries{
+  border:solid 3px rgb(172, 255, 173);
+  display: flex;
+}
+.groceries>div{ border: solid 1px rgb(100, 200, 173);
+flex: 0 1 auto}
+.imgclass1{Height:200px; width:200px;  }
